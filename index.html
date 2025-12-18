@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SplitPDF | Landscape to Portrait (v1.0.0)</title>
+    <meta name="description" content="Split your landscape PDF pages into two portrait pages quickly and easily.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+</head>
+
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <main class="container">
+        <header class="header">
+            <h1 class="title">Split<span>PDF</span></h1>
+            <p class="subtitle">Transform landscape pages into dual portrait pages instantly.</p>
+            <p class="version">App Version: v1.0.0</p>
+        </header>
+
+        <section class="drop-zone" id="drop-zone">
+            <div class="drop-content" id="drop-content">
+                <div class="icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                </div>
+                <div class="text-group">
+                    <p class="primary-text">Drag & drop your PDF here</p>
+                    <p class="secondary-text">or click to browse</p>
+                </div>
+                <input type="file" id="file-input" accept="application/pdf" hidden>
+            </div>
+
+            <div class="processing-overlay" id="processing-overlay">
+                <div class="spinner"></div>
+                <p id="status-text">Processing your PDF...</p>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="results-zone hidden" id="results-zone">
+            <div class="result-card">
+                <div class="success-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                </div>
+                <div class="result-info">
+                    <h3>Processing Complete!</h3>
+                    <p id="file-info">Your PDF is ready for download.</p>
+                </div>
+                <button class="btn btn-primary" id="download-btn">
+                    <span>Download PDF</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                </button>
+                <button class="btn btn-secondary" id="reset-btn">Split another</button>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2025 SplitPDF (v1.0.0). Private & secure - processing happens entirely in your browser.</p>
+        </footer>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
