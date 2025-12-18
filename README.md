@@ -1,5 +1,7 @@
 # SplitPDF (v1.0.0)
 
+**Live Demo**: [https://kuancheen.github.io/split-pdf/](https://kuancheen.github.io/split-pdf/)
+
 SplitPDF is a modern, premium web application that allows users to upload a landscape PDF and split each page down the middle into two portrait pages. This is particularly useful for scanned books or documents where two pages are captured in a single landscape frame.
 
 ## Features
