@@ -1,4 +1,10 @@
-# SplitPDF (v1.1.2)
+# SplitPDF (v1.1.3)
+
+![Version](https://img.shields.io/badge/version-v1.1.3-blue)
+![Status](https://img.shields.io/badge/status-active-success)
+![Live Demo](https://img.shields.io/badge/live-demo-orange?link=https://kuancheen.github.io/split-pdf/)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Semantic Versioning](https://img.shields.io/badge/semver-2.0.0-blue)
 
 **Live Demo**: [https://kuancheen.github.io/split-pdf/](https://kuancheen.github.io/split-pdf/)
 
