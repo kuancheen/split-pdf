@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2025-12-19
+
+### Changed
+- **Rebranded** project from SplitPDF to **PDFSplitter**.
+- Updated all internal references, documentation, and metadata.
+- Updated GitHub repository name to `pdf-splitter`.
+
+### Added
+- Local version-update workflow in `.agent/workflows/version-update.md`.
+
 ## [1.1.3] - 2025-12-19
 
 ### Added

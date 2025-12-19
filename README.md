@@ -1,14 +1,14 @@
-# SplitPDF (v1.1.3)
+# PDFSplitter (v1.2.0)
 
-![Version](https://img.shields.io/badge/version-v1.1.3-blue)
+![Version](https://img.shields.io/badge/version-v1.2.0-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
-![Live Demo](https://img.shields.io/badge/live-demo-orange?link=https://kuancheen.github.io/split-pdf/)
+![Live Demo](https://img.shields.io/badge/live-demo-orange?link=https://kuancheen.github.io/pdf-splitter/)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Semantic Versioning](https://img.shields.io/badge/semver-2.0.0-blue)
 
-**Live Demo**: [https://kuancheen.github.io/split-pdf/](https://kuancheen.github.io/split-pdf/)
+**Live Demo**: [https://kuancheen.github.io/pdf-splitter/](https://kuancheen.github.io/pdf-splitter/)
 
-SplitPDF is a modern, premium web application that allows users to upload a landscape PDF and split each page down the middle into two portrait pages. This is particularly useful for scanned books or documents where two pages are captured in a single landscape frame.
+PDFSplitter is a modern, premium web application that allows users to upload a landscape PDF and split each page down the middle into two portrait pages. This is particularly useful for scanned books or documents where two pages are captured in a single landscape frame.
 
 ## Features
 - **Modern Premium UI**: A dark-mode design with glassmorphism, gradients, and smooth animations.
@@ -40,13 +40,13 @@ SplitPDF is a modern, premium web application that allows users to upload a land
    Navigate to `http://localhost:8000` to start splitting your PDFs.
 
 ## Usage
-1. Open the SplitPDF web app.
+1. Open the PDFSplitter web app.
 2. Drag and drop your landscape PDF into the dashed drop zone or click to select a file.
 3. The app will process each page and notify you when ready.
 4. Click the **Download PDF** button to save the new portrait-oriented PDF.
 
 ## License
-MIT License - Copyright (c) 2025 SplitPDF
+MIT License - Copyright (c) 2025 PDFSplitter
 
 ## Contact
 For any issues or suggestions, please open an issue on the GitHub repository.
