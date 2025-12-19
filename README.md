@@ -1,4 +1,4 @@
-# SplitPDF (v1.1.1)
+# SplitPDF (v1.1.2)
 
 **Live Demo**: [https://kuancheen.github.io/split-pdf/](https://kuancheen.github.io/split-pdf/)
 
