@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2025-12-20
+
+### Added
+- Custom favicon with indigo-to-pink gradient matching app branding.
+- Favicon displayed in browser tab and prominently in the header before the app title.
+- Enhanced footer with MD Viewer links for README and CHANGELOG.
+- Copyright link to author's GitHub profile.
+- Hits.sh badge for view tracking in both footer and README.
+
+### Changed
+- Footer redesigned with standardized format: version | links | copyright | badge.
+
 ## [1.2.0] - 2025-12-19
 
 ### Changed

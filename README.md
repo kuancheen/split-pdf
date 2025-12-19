@@ -5,6 +5,7 @@
 ![Live Demo](https://img.shields.io/badge/live-demo-orange?link=https://kuancheen.github.io/pdf-splitter/)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Semantic Versioning](https://img.shields.io/badge/semver-2.0.0-blue)
+![Views](https://hits.sh/kuancheen.github.io/pdf-splitter.svg?view=today-total&style=for-the-badge&label=👁️%20Views&extraCount=0&color=6366f1)
 
 **Live Demo**: [https://kuancheen.github.io/pdf-splitter/](https://kuancheen.github.io/pdf-splitter/)
 
@@ -12,10 +13,12 @@ PDFSplitter is a modern, premium web application that allows users to upload a l
 
 ## Features
 - **Modern Premium UI**: A dark-mode design with glassmorphism, gradients, and smooth animations.
+- **Custom Branding**: Stylized favicon with indigo-to-pink gradient displayed in browser tab and header.
 - **Client-Side Processing**: Uses `pdf-lib` to process files entirely in the browser for maximum privacy and speed.
 - **Drag & Drop**: An intuitive upload zone with visual feedback.
 - **Progress Tracking**: Real-time status updates and a progress bar during PDF manipulation.
 - **Zero Privacy Risk**: No files are uploaded to any server; all processing happens locally in your browser.
+- **Enhanced Footer**: Quick access to documentation via MD Viewer integration and view tracking.
 
 ## Tech Stack
 - **HTML5 / CSS3**: Vanilla implementation for structure and styling.
