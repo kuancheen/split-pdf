@@ -1,6 +1,6 @@
-# PDFSplitter (v1.2.0)
+# PDFSplitter (v1.3.0)
 
-![Version](https://img.shields.io/badge/version-v1.2.0-blue)
+![Version](https://img.shields.io/badge/version-v1.3.0-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Live Demo](https://img.shields.io/badge/live-demo-orange?link=https://kuancheen.github.io/pdf-splitter/)
 ![License](https://img.shields.io/badge/license-MIT-green)
