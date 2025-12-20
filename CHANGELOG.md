@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed
 - Footer redesigned with standardized format: version | links | copyright | badge.
+- Refined Hits.sh badge styles for improved consistency (flat-square in footer, flat in README).
 
 ## [1.2.0] - 2025-12-19
 

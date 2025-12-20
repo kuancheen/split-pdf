@@ -5,7 +5,7 @@
 ![Live Demo](https://img.shields.io/badge/live-demo-orange?link=https://kuancheen.github.io/pdf-splitter/)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Semantic Versioning](https://img.shields.io/badge/semver-2.0.0-blue)
-![Views](https://hits.sh/kuancheen.github.io/pdf-splitter.svg?view=today-total&style=for-the-badge&label=👁️%20Views&extraCount=0&color=6366f1)
+![Views](https://hits.sh/kuancheen.github.io/pdf-splitter.svg?view=today-total&style=flat&label=👁️%20Views&extraCount=0&color=6366f1)
 
 **Live Demo**: [https://kuancheen.github.io/pdf-splitter/](https://kuancheen.github.io/pdf-splitter/)
 
